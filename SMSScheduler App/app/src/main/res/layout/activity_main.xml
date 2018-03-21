@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_backgroung">
+
+
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "Valid User Authentication"
+        android:id = "@+id/textView"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal = "true"
+        android:textColor ="#116639"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize = "35dp" />
+
+    <EditText
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/editText1"
+        android:hint = "Enter Your Mobile Number"
+        android:inputType="number"
+        android:focusable = "true"
+        android:textColorHighlight = "#155c0c"
+        android:textColorHint = "#b31803"
+        android:layout_marginTop = "44dp"
+        android:typeface="serif"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attempts Left:"
+        android:typeface="serif"
+        android:textColor="#437527"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/editText1"
+        android:layout_marginLeft="15dp"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textColor="#7d1508"
+        android:typeface="serif"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_marginLeft="200dp"
+        android:textSize="25dp"
+        android:layout_alignBottom="@+id/textView2" />
+
+    <TableLayout
+        android:id="@+id/table1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_marginTop="20dp">
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:textColor="#9d220e"
+        android:text="Reset"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:layout_alignBaseline="@+id/button"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/table1"
+        android:layout_alignRight="@+id/textView2"
+        android:background="@drawable/custom_button"
+        android:textColor="#eef4ed"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:typeface="serif"
+      android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    </TableLayout>
+    <!--<Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20sp"
+        android:textColor="#9d220e"
+        android:background="@drawable/custom_button"
+        android:text="Reset"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textSize="20sp"
+        android:background="@drawable/custom_button"
+        android:textColor="#e5ede4"
+        android:text="Submit"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignRight="@+id/textView3" />-->
+
+
+
+</RelativeLayout>

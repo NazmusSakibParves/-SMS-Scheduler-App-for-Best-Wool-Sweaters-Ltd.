@@ -1,0 +1,125 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:2:1-62:12
+	package
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:3:5-54
+		INJECTED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:6:5-35
+uses-sdk
+ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:8:5-10:41
+INJECTED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:8:5-10:41
+INJECTED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:8:5-10:41
+INJECTED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:8:5-10:41
+INJECTED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:8:5-10:41
+	android:targetSdkVersion
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:9:9-34
+		INJECTED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.SEND_SMS
+ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:12:2-80
+	android:name
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:12:19-61
+application
+ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:14:5-60:19
+	android:label
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:17:9-41
+	android:icon
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:16:9-45
+	android:allowBackup
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:18:9-40
+activity#com.somitsolutions.android.smsscheduler.SplashActivity
+ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:20:9-28:20
+	android:screenOrientation
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:23:13-49
+	android:label
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:22:13-45
+	android:name
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:21:13-82
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:26:27-74
+activity#com.somitsolutions.android.smsscheduler.SetuppageActivity
+ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:30:9-33:20
+	android:screenOrientation
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:32:13-49
+	android:label
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:31:13-45
+	android:name
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:30:19-91
+activity#com.somitsolutions.android.smsscheduler.CancelAnAlarmActivity
+ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:35:9-38:20
+	android:label
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:37:13-52
+	android:name
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:36:13-89
+activity#com.somitsolutions.android.smsscheduler.AboutUs
+ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:40:9-42:20
+	android:label
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:41:13-45
+	android:name
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:40:19-81
+activity#com.somitsolutions.android.smsscheduler.HomeActivity
+ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:44:9-45:57
+	android:label
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:45:13-45
+	android:name
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:44:19-47
+activity#com.somitsolutions.android.smsscheduler.MainActivity
+ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:47:8-48:56
+	android:label
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:48:12-44
+	android:name
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:47:18-46
+activity#com.somitsolutions.android.smsscheduler.SignUpActivity
+ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:50:9-51:57
+	android:label
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:51:13-45
+	android:name
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:50:19-49
+activity#com.somitsolutions.android.smsscheduler.AddMachineActivity
+ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:53:9-54:57
+	android:label
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:54:13-45
+	android:name
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:53:19-53
+activity#com.somitsolutions.android.smsscheduler.ShowDataListActivity
+ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:56:9-57:57
+	android:label
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:57:13-45
+	android:name
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:56:19-55
+service#com.somitsolutions.android.smsscheduler.SendSMSAlarmService
+ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:59:9-94
+	android:name
+		ADDED from E:\Nazmus Sakib Parves\SMSScheduler-master\app\src\main\AndroidManifest.xml:59:18-92

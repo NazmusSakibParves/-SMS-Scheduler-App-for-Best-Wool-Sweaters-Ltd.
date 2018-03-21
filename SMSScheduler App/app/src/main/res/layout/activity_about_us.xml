@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/custom_backgroung">
+        <TextView
+            android:text="Service SMS Scheduler"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/titleApp" />
+        <TextView
+            android:text="Version 1.0"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/titleApp"
+            android:id="@+id/appVirsion" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            android:id="@+id/imageViewlogo"
+            android:padding="5dp"
+            android:layout_below="@+id/appVirsion" />
+
+        <TextView
+            android:id="@+id/tvContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:typeface="serif"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:text="Contact us:"
+            android:layout_below="@+id/imageViewlogo"/>
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textSize="16sp"
+            android:typeface="serif"
+            android:gravity="center"
+            android:textColor="#640787"
+            android:text="vistasoftit@gmail.com"
+            android:layout_below="@+id/tvContact" />
+
+        <TextView
+            android:id="@+id/tvEmail2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textSize="16sp"
+            android:typeface="serif"
+            android:gravity="center"
+            android:textColor="#640787"
+            android:text="info@vistasoftit.org"
+            android:layout_below="@+id/tvEmail"
+            android:layout_alignLeft="@+id/tvEmail" />
+
+
+        <TextView
+            android:id="@+id/tvWebSite"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textSize="16sp"
+            android:typeface="serif"
+            android:gravity="center"
+            android:autoLink="web"
+            android:text="WebSite: http://www.vistasoftit.org/"
+            android:layout_below="@+id/tvEmail2"/>
+
+
+
+      <!--  <Button
+            android:id="@+id/bttwitter"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ewitter"
+            android:text=""
+            android:layout_marginTop="21dp"
+            android:layout_below="@+id/tvWebSite"
+            android:layout_toStartOf="@+id/tvWebSite" />
+
+        <Button
+            android:id="@+id/btfacebook"
+            android:layout_width="40dp"
+            android:background="@drawable/facebook"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/bttwitter"
+            android:layout_toEndOf="@+id/bttwitter"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btyoutube"
+            android:background="@drawable/youtube"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text=""
+            android:layout_above="@+id/moreApps"
+            android:layout_toEndOf="@+id/btfacebook"/>-->
+
+        <Button
+            android:gravity="center"
+            android:id="@+id/moreApps"
+            android:textAllCaps="false"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:text="More Apps"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:background="@drawable/custom_button"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/tvWebSite"
+            android:layout_marginBottom="25dp" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

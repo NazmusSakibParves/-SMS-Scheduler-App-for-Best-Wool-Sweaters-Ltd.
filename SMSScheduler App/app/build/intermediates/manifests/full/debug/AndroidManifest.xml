@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.somitsolutions.android.smsscheduler"
+    android:installLocation="auto"
+    android:versionCode="4"
+    android:versionName="1.3" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/smsschedule"
+        android:label="@string/app_name"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.somitsolutions.android.smsscheduler.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.somitsolutions.android.smsscheduler.SetuppageActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.somitsolutions.android.smsscheduler.CancelAnAlarmActivity"
+            android:label="@string/cancel_an_alarm" >
+        </activity>
+        <activity
+            android:name="com.somitsolutions.android.smsscheduler.AboutUs"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.somitsolutions.android.smsscheduler.HomeActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.somitsolutions.android.smsscheduler.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.somitsolutions.android.smsscheduler.SignUpActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.somitsolutions.android.smsscheduler.AddMachineActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.somitsolutions.android.smsscheduler.ShowDataListActivity"
+            android:label="@string/app_name" />
+
+        <service android:name="com.somitsolutions.android.smsscheduler.SendSMSAlarmService" />
+    </application>
+
+</manifest>
